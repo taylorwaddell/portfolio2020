@@ -1,0 +1,151 @@
+body {
+  background-color: #E5E7E5;
+  margin: 0;
+}
+
+h1 {
+  color: #80ABA5;
+  font-family: lust,serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p, h2, ul, ol, a{
+  font-family: Helvetica, serif;
+  color: #80ABA5;
+  text-decoration: none;
+}
+
+img.portrait {
+  margin: auto;
+  margin-top: 95px;
+  width: 20%;
+  display: block;
+  border-radius: 100%;
+}
+
+h1.landing {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 2%;
+  text-transform: uppercase;
+}
+
+p.landing {
+  text-align: center;
+  padding-top: 1%;
+  width: 35%;
+  line-height: 175%;
+  margin: auto;
+}
+
+hr {
+  margin-top: 9%;
+  margin-bottom: 0;
+  border: 2px solid #777777;
+  width: 70%;
+}
+
+img.logo {
+  margin: auto;
+  margin-top: -5%;
+  width: 10%;
+  display: block;
+  border-radius: 100%;
+  z-index: 10;
+}
+
+/* Start logo animation settings*/
+.rotate {
+  animation: rotation 12s infinite linear;
+}
+
+.rotate:hover {
+  animation: backrotate 70ms linear;
+  animation-timing-function: ease-out;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes backrotate {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+/* End logo animation settings*/
+
+
+/* begin article styles */
+
+article {
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: left;
+}
+
+article hr {
+  width: 100%;
+}
+
+article h1 {
+  font-size: 50px;
+  padding-top: 2%;
+}
+
+article p, ol, ul {
+  padding-top: 1%;
+  width: 100%;
+  line-height: 175%;
+}
+
+article ul, ol {
+  margin: 0;
+}
+
+article h2 {
+  margin-bottom: 0;
+}
+
+article a:hover {
+  color: #5A6F6C;
+}
+
+p.end {
+  margin-bottom: 10%;
+}
+
+/* begin footer styles */
+
+footer {
+  background-color: #EDEDED;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+footer svg {
+  padding-left: 22%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  opacity: 0.5;
+  margin: auto;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover svg{
+  opacity: 1;
+}
