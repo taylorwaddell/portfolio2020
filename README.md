@@ -1,5 +1,6 @@
 # Portfolio Project – 2020
 New portfolio landing page. Designed and coded by myself.
+[Check it out!](https://taylorwaddell.github.io/portfolio2020/)
 
 # Design
 ## Design Process
