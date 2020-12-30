@@ -5,12 +5,12 @@ body {
 
 h1 {
   color: #80ABA5;
-  font-family: lust,serif;
+  font-family: lust, serif;
   font-weight: 400;
   font-style: normal;
 }
 
-p, h2, ul, ol, a{
+p, h2, h3, ul, ol, a{
   font-family: Helvetica, serif;
   color: #80ABA5;
   text-decoration: none;
@@ -100,6 +100,10 @@ article hr {
 article h1 {
   font-size: 50px;
   padding-top: 2%;
+}
+
+article h3 {
+  font-size: 30px
 }
 
 article p, ol, ul {
