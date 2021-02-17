@@ -138,18 +138,19 @@ footer {
   padding-right: 15%;
 }
 
+
 footer svg {
-  padding-left: 22%;
-  padding-top: 2%;
-  padding-bottom: 1%;
+  margin-left: 22%;
+  margin-top: 2%;
+  margin-bottom: 1%;
   opacity: 0.5;
-  margin: auto;
+  vertical-align: top;
 }
 
 footer a {
   text-decoration: none;
 }
 
-footer a:hover svg{
+footer a:hover svg {
   opacity: 1;
 }
